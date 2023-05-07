@@ -7,6 +7,8 @@ name = "pypi"
 numpy = "*"
 matplotlib = "*"
 notebook = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
