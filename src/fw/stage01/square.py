@@ -1,7 +1,7 @@
 import numpy as np
 
-from fw.variable import Variable
-from src.fw.function import Function
+from fw.stage01.variable import Variable
+from fw.stage01.function import Function
 
 
 class Square(Function):

@@ -4,7 +4,7 @@ from typing import Optional, TYPE_CHECKING, Union
 import numpy as np
 
 if TYPE_CHECKING:
-    from src.fw.function import Function
+    from fw.stage01.function import Function
 
 
 class Variable:

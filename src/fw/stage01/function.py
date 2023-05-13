@@ -1,6 +1,6 @@
 import numpy as np
 
-from src.fw.variable import Variable
+from fw.stage01.variable import Variable
 
 
 class Function:

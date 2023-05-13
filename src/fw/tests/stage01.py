@@ -2,9 +2,9 @@ import unittest
 
 import numpy as np
 
-from src.fw.exp import Exp, exp
-from src.fw.square import Square, square
-from src.fw.variable import Variable
+from fw.stage01.exp import Exp, exp
+from fw.stage01.square import Square, square
+from fw.stage01.variable import Variable
 
 
 class Stage01TestCase(unittest.TestCase):
