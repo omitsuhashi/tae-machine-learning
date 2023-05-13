@@ -16,8 +16,8 @@ class Function:
         self.output = output
         return output
 
-    def forward(self, x: np.ndarray):
+    def forward(self, x: np.ndarray) -> np.ndarray:
         raise NotImplementedError()
 
-    def backward(self, gy: np.ndarray):
+    def backward(self, gy: np.ndarray) -> np.ndarray:
         raise NotImplementedError()
